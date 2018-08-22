@@ -19,7 +19,7 @@ services:
         tty: true
         command:
             - --ACME.ACMELogging
-            - --ACME.Email=you@example.com
+            - --ACME.Email=you@sdi.es
             - --ACME.EntryPoint=https
             - --ACME.HTTPChallenge.entryPoint=http
             - --ACME.OnHostRule
